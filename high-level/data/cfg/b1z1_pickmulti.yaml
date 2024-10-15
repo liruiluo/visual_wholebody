@@ -17,7 +17,7 @@ env:
   holdSteps: 25
   lastCommands: False
 
-  low_policy_path: "/data/mhliu/visual_wholebody/high-level/data/low_policy/publiccheckrollrew_42000.pt" # "data/low_policy/jan17-frontfeet_terrainflat_linrew2_freq2_gaitstopzero_penelizeang_roll_fixbug_35600.pt"
+  low_policy_path: "/home/l/Downloads/visual_wholebody/high-level/data/low_policy/model_38000.pt" # "data/low_policy/jan17-frontfeet_terrainflat_linrew2_freq2_gaitstopzero_penelizeang_roll_fixbug_35600.pt"
 
   asset:
     assetRoot: "data/asset"
@@ -216,7 +216,7 @@ sim:
     solver_type: 1
     num_position_iterations: 8
     num_velocity_iterations: 0
-    contact_offset: 0.02
+    contact_offset: 0.04
     rest_offset: 0.0
     bounce_threshold_velocity: 0.2
     max_depenetration_velocity: 50.0
